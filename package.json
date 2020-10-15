@@ -1,6 +1,6 @@
 {
   "name": "completely-random-colors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate completely random colors.",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "ShishirBhandari",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShishirBhandari/Completely-Random-Colors.git"
+  },
   "license": "ISC"
 }
