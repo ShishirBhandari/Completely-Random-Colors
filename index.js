@@ -33,4 +33,15 @@ const getRandomColor = () => {
 	return ('#' + color);
 }
 
+
+const getRandomColors = (noOfColors) => {
+	const colors = []
+	for (var i = noOfColors - 1; i >= 0; i--) {
+		colors.push(getRandomColor());
+	}
+
+	return colors;
+}
+
 exports.getRandomColor = getRandomColor;
+exports.getRandomColors = getRandomColors;
