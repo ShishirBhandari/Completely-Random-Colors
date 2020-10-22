@@ -18,3 +18,8 @@ import { getRandomColor } from 'completely-random-colors'
 ```
 const color = getRandomColor()
 ```
+## Get multiple random colors
+```
+const { getRandomColors } = require('completely-random-colors');
+const colors = getRandomColors(50); // gets a list of 50 random colors
+```
